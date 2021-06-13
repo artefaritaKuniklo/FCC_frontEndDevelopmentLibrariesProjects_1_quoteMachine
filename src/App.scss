@@ -1,0 +1,46 @@
+h1 {
+  color: white;
+}
+#box-container {
+  min-width: 100vh;
+  min-height: 100vh;
+  margin: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#quote-box {
+  background-color: rgb(42, 100, 100);
+  width: 50%;
+  height: auto;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 500ms;
+}
+#text{
+  text-align: justify;
+}
+#author {
+  text-align: right;
+  margin: 20px 0;
+}
+a {
+  text-decoration: none;
+}
+button {
+  span {
+    text-transform: none;
+  }
+}
+#btn-container {
+  display: flex;
+  justify-content: space-between;
+  * {
+    border-radius: 10px;
+  }
+}
